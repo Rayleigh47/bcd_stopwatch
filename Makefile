@@ -3,12 +3,11 @@
 # Variables
 VIVADO = vivado
 TCL_SCRIPT = tcl/build.tcl
-LOG_FILE = vivado_run.log 
 CLEAN_FILES = *.jou *.log
 
 # Target to run the TCL script
 run:
-	$(VIVADO) -mode batch -source $(TCL_SCRIPT) > $(LOG_FILE)
+	$(VIVADO) -mode batch -source $(TCL_SCRIPT)
 
 # Clean target (optional) to remove the log file
 clean:
