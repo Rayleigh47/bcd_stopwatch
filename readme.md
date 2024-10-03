@@ -5,5 +5,5 @@ Dummy project to try out using a tcl-based workflow for Vivado.
 
 Steps to recreate project:
 1. Run make
-2. Open bcd_counter.xpr project file in Vivado
+2. Open hardware manager on Vivado to load bitstream into Nexys4 board
 3. Run make clean to remove log files
