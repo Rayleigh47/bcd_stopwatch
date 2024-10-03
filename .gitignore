@@ -1,2 +1,5 @@
 *.vvp
 *.vcd
+*.jou
+*.log
+/bcd_counter
