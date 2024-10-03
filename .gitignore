@@ -3,4 +3,4 @@
 *.jou
 *.log
 /bcd_counter
-/.xil/
+.Xil

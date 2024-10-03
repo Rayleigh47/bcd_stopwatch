@@ -3,7 +3,8 @@
 # Variables
 VIVADO = vivado
 TCL_SCRIPT = tcl/build.tcl
-LOG_FILE = vivado_run.log *.jou *.log
+LOG_FILE = vivado_run.log 
+CLEAN_FILES = *.jou *.log
 
 # Target to run the TCL script
 run:
@@ -11,4 +12,4 @@ run:
 
 # Clean target (optional) to remove the log file
 clean:
-	rm -f $(LOG_FILE)
+	rm -f $(CLEAN_FILES)
