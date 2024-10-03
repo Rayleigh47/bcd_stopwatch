@@ -1,3 +1,4 @@
+`default_nettype wire
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // This module can be used directly to display 32-bit INSTR or DATA_CONST on the 7-segments in HEX format
